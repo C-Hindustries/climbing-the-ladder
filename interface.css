@@ -49,6 +49,8 @@ body {
     text-align: center;
     font-family: Impact, sans-serif;
     color: #ffcc00;
+    margin: 0;
+    padding: 0;
 }
 
 .employmentDiv {
@@ -73,4 +75,16 @@ body {
 .employeeHead {
     color: white;
     text-shadow: 0 0 3px #FF0000;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.center {
+    margin: auto;
 }
