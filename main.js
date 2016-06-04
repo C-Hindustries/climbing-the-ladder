@@ -4,4 +4,5 @@ function start() {
   document.getElementById("companyName").innerHTML = companyName;
   document.getElementById("starterDiv").className = "hidden";
   document.getElementById("mainContentDiv").className = "mainContentDiv";
+  document.getElementById("employmentDiv").className = "employmentDiv";
 }
