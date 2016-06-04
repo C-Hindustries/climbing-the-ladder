@@ -78,11 +78,17 @@ body {
 }
 
 .right {
-    float: right;
+    position: relative;
+    right: 40%;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .left {
-    float: left;
+    position: relative;
+    left: 40%;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .center {
