@@ -63,12 +63,7 @@ body {
 }
 
 .employmentSpan:hover {
-    height: 100%;
     text-align: left;
-    width: 30%;
-    background-color: #8080ff;
-    border-color: #000099;
-    border-width: 5px;
     font-family: Geneva;
     font-size: 29px;
     text-shadow: 0 0 5px #FF0000;
