@@ -27,8 +27,12 @@ button{
   border-style: outset outset outset outset;
 }
 
-.whiteSmall {
-    color: #dddddd;
+.yellow-Small {
+    color: #ffcc00;
     font-size: 18;
     text-align: center;
+}
+
+.hidden {
+  display: none;
 }
