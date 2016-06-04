@@ -1,7 +1,7 @@
 .logoDiv{
     color: #ffcc00;
     position: relative;
-    font-family: monospace, monospace;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: 45px;
     border-style: outset outset outset outset;
     border-radius: 7px;
@@ -15,5 +15,20 @@
 }
 
 button{
-  
+  font-family: Impact, Charcoal, sans-serif;
+  border-radius: 7px;
+  text-align: center;
+  border-width: 5px;
+  height: 80px;
+  width: 400px;
+  background-color: #e8e6e3;
+  font-size: 25px;
+  border-color: #2b2822;
+  border-style: outset outset outset outset;
+}
+
+.whiteSmall {
+    color: #dddddd;
+    font-size: 18;
+    text-align: center;
 }
