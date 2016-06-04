@@ -36,3 +36,14 @@ button{
 .hidden {
   display: none;
 }
+
+.mainContentDiv {
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
