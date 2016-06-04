@@ -60,6 +60,7 @@ body {
     border-width: 5px;
     font-family: Geneva;
     font-size: 29px;
+    border-radius: 7px;
 }
 
 .employmentSpan:hover {
