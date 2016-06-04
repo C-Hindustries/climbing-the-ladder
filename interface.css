@@ -50,3 +50,19 @@ body {
     font-family: Impact, sans-serif;
     color: #ffcc00;
 }
+
+.employmentDiv {
+    height: 100%;
+    text-align: left;
+    width: 35%;
+    background-color: #8080ff;
+    border-color: #000099;
+    border-width: 5px;
+    font-family: Geneva;
+    font-size: 25px;
+}
+
+.employeeHead {
+    color: white;
+    text-shadow: 0 0 3px #FF0000;
+}
