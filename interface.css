@@ -27,6 +27,19 @@ button{
   border-style: outset outset outset outset;
 }
 
+button:hover {
+  font-family: Impact, Charcoal, sans-serif;
+  border-radius: 7px;
+  text-align: center;
+  border-width: 5px;
+  height: 80px;
+  width: 400px;
+  background-color: #e8e6e3;
+  font-size: 25px;
+  border-color: #ff0000;
+  border-style: outset outset outset outset;
+}
+
 .yellow-Small {
     color: #ffcc00;
     font-size: 18;
