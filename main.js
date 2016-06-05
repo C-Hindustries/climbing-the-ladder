@@ -3,6 +3,8 @@ var upgradeDesignPrice = 100
 var designLevel = 0
 var sales = 0
 var saleScore = 0
+var upgradeAdvertisePrice = 100
+var advertiseLevel = 0
 
 function start() {
   var gameStartPrompt = prompt("Welcome! Please Choose a Name For Your company!");
@@ -15,8 +17,9 @@ function start() {
 }
 
 function upgradeDesign() {
-  if (money >= upgradeDesignPrice) {
-    money = money -= upgradeDesignPrice;
+  if (money >= upgradeAdvertisePrice) {
+    money = money -= upgradeAdvertisePrice;
+    document.getElementById("earnNum").innerHTML = money;
     upgradeDesignPrice = upgradeDesignPrice *= 1.2;
     document.getElementById("designerPrice").innerHTML = upgradeDesignPrice;
     designLevel = designLevel += 1;
@@ -25,14 +28,15 @@ function upgradeDesign() {
   }
 }
 
-function upgradeDesign() {
+function upgradeAdvertise() {
   if (money >= upgradeDesignPrice) {
     money = money -= upgradeDesignPrice;
-    upgradeDesignPrice = upgradeDesignPrice *= 1.2;
-    document.getElementById("designerPrice").innerHTML = upgradeDesignPrice;
-    designLevel = designLevel += 1;
-    document.getElementById("designLevel").innerHTML = designLevel;
-    saleScore += designLevel;
+    document.getElementById("earnNum").innerHTML = money;
+    upgradeAdvertisePrice = upgradeAdvertisePrice *= 1.2;
+    document.getElementById("designerPrice").innerHTML = upgradeAdvertisePrice;
+    advertiseLevel = advertiseLevel += 1;
+    document.getElementById("advertiseLevel").innerHTML = advertiseLevel;
+    saleScore += advertiseLevel;
   }
 }
 
