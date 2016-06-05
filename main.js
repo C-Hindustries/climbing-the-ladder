@@ -86,11 +86,9 @@ function upgradeOffice() {
 // 1 Second Loop
 window.setInterval(function(){
   // Put code to be run every second in here.
-  if (saleScore >= 5) {
     sale();
     addMoney();
     unHideExtras();
-  }
 }, 1000);
 
 function sale() {
