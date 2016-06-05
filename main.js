@@ -88,6 +88,7 @@ function getSale() {
   sales = sales += saleUpgrade
   document.getElementById("salesnNum").innerHTML = sales;
   money = money += (sales /= 1.5)
+  document.getElementById("earnNum").innerHTML = money;
 }
 
 // 1 Second Loop
