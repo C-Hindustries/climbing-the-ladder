@@ -15,9 +15,46 @@ function start() {
 }
 
 function upgradeDesign() {
-  money = money -= upgradeDesignPrice;
-  upgradeDesignPrice = upgradeDesignPrice *= 1.2;
-  document.getElementById("designerPrice").innerHTML = upgradeDesignPrice;
-  designLevel = designLevel += 1;
-  document.getElementById("designLevel").innerHTML = designLevel;
+  if (money >= upgradeDesignPrice) {
+    money = money -= upgradeDesignPrice;
+    upgradeDesignPrice = upgradeDesignPrice *= 1.2;
+    document.getElementById("designerPrice").innerHTML = upgradeDesignPrice;
+    designLevel = designLevel += 1;
+    document.getElementById("designLevel").innerHTML = designLevel;
+    saleScore += designLevel;
+  }
+}
+
+function upgradeDesign() {
+  if (money >= upgradeDesignPrice) {
+    money = money -= upgradeDesignPrice;
+    upgradeDesignPrice = upgradeDesignPrice *= 1.2;
+    document.getElementById("designerPrice").innerHTML = upgradeDesignPrice;
+    designLevel = designLevel += 1;
+    document.getElementById("designLevel").innerHTML = designLevel;
+    saleScore += designLevel;
+  }
+}
+
+// 1 Second Loop
+window.setInterval(function(){
+  // Put code to be run every second in here.
+  if (saleScore >= 5) {
+    sale();
+    addMoney();
+    unHideExtras();
+  }
+}, 1000);
+
+function sale() {
+  sales = sales += saleScore;
+  document.getElementById("salesnNum").innerHTML = sales;
+}
+
+function AddMoney() {
+  if (saleScore = 5, money = 0 ){
+    window.alert("well done! you have now fully invested your money and your company is destined for greatness with skills like these!")
+  }
+  money = money += (sales /= 1.5);
+  document.getElementById("earnNum").innerHTML = money;
 }
