@@ -11,6 +11,7 @@ var upgradeFactoryPrice = 300
 var factoryLevel
 var upgradeOfficePrice = 300
 var officeLevel = 0
+var saleUpgrade = 1
 
 function start() {
   var gameStartPrompt = prompt("Welcome! Please Choose a Name For Your company!");
@@ -43,6 +44,7 @@ function upgradeAdvertise() {
     advertiseLevel = advertiseLevel += 1;
     document.getElementById("advertiseLevel").innerHTML = advertiseLevel;
     saleScore += advertiseLevel;
+    
   }
 }
 
@@ -82,24 +84,18 @@ function upgradeOffice() {
   }
 }
 
+function getSale() {
+  sales = sales += saleUpgrade
+  document.getElementById("salesnNum").innerHTML = sales;
+  money = money += (sales /= 1.5)
+}
 
 // 1 Second Loop
 window.setInterval(function(){
   // Put code to be run every second in here.
-    sale();
-    addMoney();
-    unHideExtras();
+    advertise();
 }, 1000);
 
-function sale() {
-  sales = sales += saleScore;
-  document.getElementById("salesnNum").innerHTML = sales;
-}
-
-function addMoney() {
-  if (saleScore = 5, money = 0 ){
-    window.alert("well done! you have now fully invested your money and your company is destined for greatness with skills like these!")
-  }
-  money = money += (sales /= 1.5);
-  document.getElementById("earnNum").innerHTML = money;
+function advertise() {
+  sales = sales += advertiseLevel
 }
