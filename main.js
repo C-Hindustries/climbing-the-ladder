@@ -96,7 +96,7 @@ function sale() {
   document.getElementById("salesnNum").innerHTML = sales;
 }
 
-function AddMoney() {
+function addMoney() {
   if (saleScore = 5, money = 0 ){
     window.alert("well done! you have now fully invested your money and your company is destined for greatness with skills like these!")
   }
