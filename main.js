@@ -87,7 +87,7 @@ function upgradeOffice() {
 function getSale() {
   sales = sales += saleUpgrade
   document.getElementById("salesnNum").innerHTML = sales;
-  money = money += (sales /= 1.5)
+  money = money += (sales /= 1.5);
   document.getElementById("earnNum").innerHTML = money;
 }
 
@@ -98,5 +98,5 @@ window.setInterval(function(){
 }, 1000);
 
 function advertise() {
-  sales = sales += advertiseLevel
+  sales = sales += advertiseLevel;
 }
