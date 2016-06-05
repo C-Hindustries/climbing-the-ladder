@@ -109,3 +109,8 @@ body {
    left: 50%;
 }
 
+.topCenter {
+   position: relative;
+   left: 50%;
+   vertical-align: text-top;
+}
