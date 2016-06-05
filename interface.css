@@ -12,6 +12,7 @@
     top: 50px;
     width: 420px;
     margin: auto;
+    vertical-align: top;
 }
 
 button{
@@ -54,6 +55,7 @@ button:hover {
     font-family: Impact, sans-serif;
     text-align: center;
     font-size: 25px;
+    vertical-align: top;
 }
 
 body {
@@ -112,5 +114,5 @@ body {
 .topCenter {
    position: relative;
    left: 50%;
-   vertical-align: text-top;
+   vertical-align: top;
 }
