@@ -94,3 +94,8 @@ body {
 .center {
     margin: auto;
 }
+
+table{
+    width: 100%;
+    height:100%;
+}
