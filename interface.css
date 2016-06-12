@@ -113,8 +113,8 @@ body {
 
 .topCenter {
    position: relative;
-   left: 50%;
-   vertical-align: top;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .containerDiv {
